@@ -38,7 +38,7 @@
         yarn install
         ```
 
-    * Rename `.env.local.example` to `.env.local` and add your Magic Auth API keys.
+   * Rename `.env.local.example` to `.env.local` and add your Magic Auth API keys.
 
         ```shell
         mv .env.local.example .env.local
@@ -57,7 +57,7 @@
         yarn dev
         ```
 
-    * Open http://localhost:3000 with your browser to see the result.
+   * Open http://localhost:3000 with your browser to see the result.
 
   6. Enter your email and follow the usual "magic link" steps. After these steps, if need be, refresh the page a couple of times till you see the dashboard.
 
