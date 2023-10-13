@@ -61,11 +61,11 @@
 
   6. Enter your email and follow the usual "magic link" steps. After these steps, if need be, refresh the page a couple of times till you see the dashboard.
 
-    ![Main page](images/enter_email.png)
+      ![Main page](images/enter_email.png)
 
   7. You get two options in the dashboard - "Create Person" and "Delete Person". Create a bunch of persons and see them appear in the `Polybase` explorer.
 
-    ![Dashboard](images/dashboard.png)
+      ![Dashboard](images/dashboard.png)
 
   8. Then delete some person (using the same string/id as was used during creation) by entering it in the "Delete Person" input and clicking "Delete Person". 
      Check the `Polybase` explorer to ensure that the person has been deleted.
