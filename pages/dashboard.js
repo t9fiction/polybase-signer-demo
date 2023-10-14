@@ -57,7 +57,7 @@ export default function Dashboard() {
   const createPerson = async () => {
     try {
       await db.collection('Person').create([person])
-      console.log('Created person successfully - ', person)
+      alert(`Created ${person} successfully - `)
     } catch (err) {
       console.log(err)
     }
@@ -68,7 +68,7 @@ export default function Dashboard() {
   const deletePerson = async () => {
     try {
       await db.collection('Person').record(delPerson).call('del')
-      console.log('Deleted successfully - ', delPerson)
+      alert(`Deleted ${delPerson} successfully -` )
     } catch (err) {
       console.log(err)
     }
