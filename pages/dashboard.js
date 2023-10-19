@@ -36,7 +36,7 @@ const passcode = '123456'
 // create the `Polybase` client, passing in the signer.
 const db = new Polybase({
   // modify this to the namespace in your `explorer`.
-  defaultNamespace: "pk/0x5ace8dfe5cd645676fdf158b56fcf430a45708e6bdfce7cbda504c7454f9535ce1cf08266028dd08d61c14aebdfb5a15b1261c3cd69fbeb53272251f4b6dfa67/PersonApp",
+  defaultNamespace: "pk/0x8cb0e796584b8c2ff3f5a0c8247ce3be515a9d252381352a2e5e565960072d3152dee9c38633d6876b540ad2dee2327cc99724e1aba56b2817c886350e50e92a/persontest",
   signer: async (data) => {
     return {
       h: 'eth-personal-sign',
